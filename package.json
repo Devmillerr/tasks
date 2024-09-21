@@ -5,10 +5,16 @@
   "repository": "https://github.com/Devmillerr/tasks.git",
   "author": "yordin21 <1260493@senati.pe>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
   "dependencies": {
     "@prisma/client": "^5.19.1",
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "prisma": "^5.19.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
