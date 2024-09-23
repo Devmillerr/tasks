@@ -11,8 +11,8 @@
         "dest": "src/index.js"
       }
     ],
-    "hooks": {
-      "postinstall": "prisma generate"
+    "scripts": {
+      "build": "yarn install && yarn prisma generate"
     }
   }
   
